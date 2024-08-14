@@ -1,14 +1,11 @@
-h1 {
+.hero h1 {
   font-family: "Playfair Display", serif;
   color: black;
   font-weight: bold;
   font-size: 96px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-}
+
 .hero {
   background-color: #f9f7fe;
   text-align: center;
@@ -21,7 +18,18 @@ p {
 }
 .hero h2 {
   font-family: "Playfair Display", serif;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 2;
   font-size: 24px;
 }
+.a {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 28px;
+  line-height: 27px;
+  padding: 15px 0px;
+}
+
+ 
+
