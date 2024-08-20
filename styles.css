@@ -54,7 +54,6 @@ p {
 #yogurt-img {
   max-width: 500px;
 }
-#projects {
-  font-size: 45px;
-  font-family: var(--default-font-family);
+h2 {
+  font-size: 44px;
 }
