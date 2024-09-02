@@ -130,6 +130,9 @@ p {
   text-decoration: none;
 
  }
+ .contact-content a:hover{
+  color:var(--branding-color);
+ }
  .contact-content{
   text-align: center;
   padding: 150px;
