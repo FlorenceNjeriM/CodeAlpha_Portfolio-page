@@ -189,4 +189,5 @@ nav li.active a {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
+  line-height: 10px;
 }
