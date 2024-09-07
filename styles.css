@@ -177,17 +177,23 @@ nav li.active a {
   color: var(--branding-color);
   background: var(--secondary-color);
   border-radius: 50%;
-  padding: 50px 20px;
+  padding: 20px 25px;
+}
+.social-links a:hover {
+  background-color: var(--branding-color);
 }
 .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
+  align-items: center;
 }
 .contact-box h4 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
-  line-height: 10px;
+}
+.social-links {
+  padding-bottom: 60px;
 }
