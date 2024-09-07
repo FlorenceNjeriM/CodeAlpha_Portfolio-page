@@ -40,9 +40,9 @@ p {
   background: #6c63ff;
   border-radius: 4px;
   color: white;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 24px;
-  padding: 10px 10px;
+  padding: 15px 20px;
 }
 .project {
   margin-top: 30px;
@@ -162,4 +162,32 @@ p {
  }
  nav li.active a {
   color: var(--branding-color);
+}
+.email-link{
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+.email-link:hover{
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.social-links a{
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 50px 20px;
+}
+.contact-box{
+  background-color:var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box h4{
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 48px;
 }
