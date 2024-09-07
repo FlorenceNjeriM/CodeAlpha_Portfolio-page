@@ -180,7 +180,8 @@ nav li.active a {
   padding: 20px 25px;
 }
 .social-links a:hover {
-  background-color: var(--branding-color);
+  color: #fff;
+  background: var(--branding-color);
 }
 .contact-box {
   background-color: var(--secondary-color);
