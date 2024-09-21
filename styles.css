@@ -4,7 +4,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-body{
+body {
   font-family: var(--default-font-family);
 }
 .hero h1 {
@@ -94,100 +94,107 @@ p {
 .about-section {
   padding: 80px;
 }
-.content{
+.content {
   text-align: center;
   padding: 100px;
 }
-.content h1{
+.content h1 {
   font-size: 64px;
   line-height: 80px;
   color: black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
- .content h2{
+.content h2 {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
   color: black;
   font-weight: bold;
- }
- .content p{
+}
+.content p {
   font-size: 14px;
   font-family: var(--default-font-family);
   line-height: 30px;
   font-weight: normal;
- }
- .contact-content h1{
+}
+.contact-content h1 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 64px;
-    line-height: 80px;
- }
- a{
+  line-height: 80px;
+}
+a {
   color: #0d6efd;
   text-decoration: none;
-
- }
- .contact-content a:hover{
-  color:var(--branding-color);
- }
- .contact-content{
+}
+.contact-content a:hover {
+  color: var(--branding-color);
+}
+.contact-content {
   text-align: center;
   padding: 150px;
- }
- .contact-content p{
+}
+.contact-content p {
   line-height: 30px;
   font-size: 14px;
- }
- nav li{
+}
+nav li {
   display: inline;
   line-height: 42px;
-  
+
   list-style: none;
   margin: 15px;
- }
- nav a{
+}
+nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
   font-weight: bold;
- }
- nav{
+}
+nav {
   padding: 20px;
- }
- .logo{
+}
+.logo {
   max-height: 40px;
- }
- nav li.active a {
+}
+nav li.active a {
   color: var(--branding-color);
 }
-.email-link{
+.email-link {
   font-size: 24px;
   color: black;
   text-decoration: none;
 }
-.email-link:hover{
+.email-link:hover {
   color: var(--branding-color);
   text-decoration: none;
 }
 
-.social-links a{
+.social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
   border-radius: 50%;
-  padding: 50px 20px;
+  padding: 20px 25px;
 }
-.contact-box{
-  background-color:var(--secondary-color);
+.social-links a:hover {
+  color: #fff;
+  background: var(--branding-color);
+}
+.contact-box {
+  background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
+  align-items: center;
 }
-.contact-box h4{
+.contact-box h4 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
+}
+.social-links {
+  padding-bottom: 60px;
 }
