@@ -5,6 +5,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 body {
+body {
   font-family: var(--default-font-family);
 }
 .hero h1 {
@@ -185,10 +186,13 @@ nav li.active a {
 }
 .contact-box {
   background-color: var(--secondary-color);
+.contact-box {
+  background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
   align-items: center;
 }
+.contact-box h4 {
 .contact-box h4 {
   color: black;
   font-family: var(--heading-font-family);
