@@ -160,7 +160,8 @@ nav {
   padding: 20px;
 }
 .logo {
-  max-height: 40px;
+  max-height: 80px;
+  max-width: 300px;
 }
 nav li.active a {
   color: var(--branding-color);
